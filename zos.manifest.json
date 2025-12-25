@@ -1,0 +1,14 @@
+{
+  "id": "ai.hanzo.contacts",
+  "name": "Contacts",
+  "version": "4.2.0",
+  "description": "Contact manager with social profiles",
+  "icon": "👤",
+  "category": "productivity",
+  "author": "Hanzo AI",
+  "repository": "https://github.com/zos-apps/contacts",
+  "minSdkVersion": "4.0.0",
+  "permissions": ["storage"],
+  "main": "src/index.tsx",
+  "installable": true
+}

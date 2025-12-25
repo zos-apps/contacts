@@ -1,0 +1,20 @@
+{
+  "name": "@zos-apps/contacts",
+  "version": "4.2.0",
+  "description": "Contact manager with social profiles",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "files": ["src"],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": ">=0.300.0"
+  },
+  "keywords": ["zos", "app", "contacts"],
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/contacts.git"
+  }
+}
