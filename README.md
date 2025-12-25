@@ -13,10 +13,27 @@ npm install github:zos-apps/contacts
 ## Usage
 
 ```tsx
-import ZContacts from '@zos-apps/contacts';
+import App from '@zos-apps/contacts';
 
-function App() {
-  return <ZContacts />;
+function MyApp() {
+  return <App />;
+}
+```
+
+## Package Spec
+
+App metadata is defined in `package.json` under the `zos` field:
+
+```json
+{
+  "zos": {
+    "id": "ai.hanzo.contacts",
+    "name": "Contacts",
+    "icon": "👤",
+    "category": "productivity",
+    "permissions": ["storage"],
+    "installable": true
+  }
 }
 ```
 
