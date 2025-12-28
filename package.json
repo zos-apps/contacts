@@ -19,7 +19,22 @@
         "height": 600
       },
       "resizable": true
-    }
+    },
+    "about": "Manage your contacts with this address book application.",
+    "help": [
+      "Click + to add contact",
+      "Search to find contacts",
+      "Click to view details"
+    ],
+    "docs": "https://zos-apps.github.io/contacts",
+    "site": "https://github.com/zos-apps/contacts",
+    "features": [
+      "Contact management",
+      "Groups",
+      "Search",
+      "vCard import/export",
+      "Favorites"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -52,5 +67,13 @@
     "contacts",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -1,54 +1,75 @@
-# 👥 Contacts
+# Contacts
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/contacts/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/contacts)
+👥 Manage your contacts with this address book application.
 
-> Manage your contacts
+[![CI](https://github.com/zos-apps/contacts/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/contacts/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/contacts.svg)](https://www.npmjs.com/package/@zos-apps/contacts)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/contacts)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/contacts
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Contacts from '@zos-apps/contacts';
-
-function App() {
-  return <Contacts />;
-}
-```
+Manage your contacts with this address book application.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Contact management
+- Groups
+- Search
+- vCard import/export
+- Favorites
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Contacts".
 
-**Productivity**
+### Via npm
+```bash
+npm install @zos-apps/contacts
+```
 
-## Permissions
+## Usage
 
-- `storage.local`
+- Click + to add contact
+- Search to find contacts
+- Click to view details
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/contacts)
-- [GitHub Repository](https://github.com/zos-apps/contacts)
-- [Report Issues](https://github.com/zos-apps/contacts/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/contacts)
+- [API Reference](https://zos-apps.github.io/contacts/api)
+- [Changelog](https://github.com/zos-apps/contacts/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/contacts/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>
