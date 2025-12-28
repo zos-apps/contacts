@@ -34,7 +34,26 @@
       "Search",
       "vCard import/export",
       "Favorites"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/contacts"
+    },
+    "featured": false,
+    "tags": [
+      "productivity",
+      "work",
+      "contacts"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/contacts/issues",
+    "changelog": "https://github.com/zos-apps/contacts/releases"
   },
   "scripts": {
     "build": "tsup",
